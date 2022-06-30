@@ -20,10 +20,4 @@ spec:
   # https://docs.aws.amazon.com/eks/latest/userguide/prometheus.html
   # https://github.com/prometheus-community/helm-charts/blob/main/charts/prometheus/values.yaml
   values:
-    alertmanager:
-      persistentVolume:
-        storageClass: "gp2"
-    server:
-      persistentVolume:
-        storageClass: "gp2"
     
